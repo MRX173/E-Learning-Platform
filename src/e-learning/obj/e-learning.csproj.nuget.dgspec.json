@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\projects\\e-learning\\src\\e-learning\\e-learning.csproj": {}
+    "/home/mrx/my-projects/E-Learning-Platform/src/e-learning/e-learning.csproj": {}
   },
   "projects": {
-    "F:\\projects\\e-learning\\src\\e-learning\\e-learning.csproj": {
+    "/home/mrx/my-projects/E-Learning-Platform/src/e-learning/e-learning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\projects\\e-learning\\src\\e-learning\\e-learning.csproj",
+        "projectUniqueName": "/home/mrx/my-projects/E-Learning-Platform/src/e-learning/e-learning.csproj",
         "projectName": "e-learning",
-        "projectPath": "F:\\projects\\e-learning\\src\\e-learning\\e-learning.csproj",
-        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "F:\\projects\\e-learning\\src\\e-learning\\obj\\",
+        "projectPath": "/home/mrx/my-projects/E-Learning-Platform/src/e-learning/e-learning.csproj",
+        "packagesPath": "/home/mrx/.nuget/packages/",
+        "outputPath": "/home/mrx/my-projects/E-Learning-Platform/src/e-learning/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/mrx/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,6 +58,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +80,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

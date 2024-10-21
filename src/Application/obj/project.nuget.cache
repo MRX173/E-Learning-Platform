@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XLPeijHQaok=",
+  "dgSpecHash": "lLu0V3fHNlk=",
   "success": true,
-  "projectFilePath": "F:\\projects\\e-learning\\src\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/mrx/my-projects/E-Learning-Platform/src/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/mrx/.nuget/packages/microsoft.netcore.app.ref/8.0.8/microsoft.netcore.app.ref.8.0.8.nupkg.sha512",
+    "/home/mrx/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
