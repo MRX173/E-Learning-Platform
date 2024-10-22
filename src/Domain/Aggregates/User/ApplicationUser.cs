@@ -1,7 +1,10 @@
-namespace Domain.Aggregates.User;
+using Microsoft.AspNetCore.Identity;
 
-public class ApplicationUser : IdentityUser
+namespace Domain.Aggregates.User
 {
+    public class ApplicationUser : IdentityUser
+    {
 
-}
+    }
  
+}
